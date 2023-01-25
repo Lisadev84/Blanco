@@ -1,0 +1,227 @@
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6,section{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0} 
+
+
+
+header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+}
+
+body {
+    margin: 100px 100px 100px 170px;
+    line-height: 0;
+} 
+
+#page {
+    width: 1523px;
+}
+.logo {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+
+} 
+
+
+.portfolio {
+    display: flex;
+    flex-wrap:wrap; 
+}
+
+
+.stories {
+    width: 50%;
+    height: auto;
+    position:relative;
+} 
+
+.folio {
+    width: 100%;
+}
+.stories>img{
+    width: 100%;
+    height: auto;
+}
+ h1 {
+    font-family: "Helvetica";
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.folio p {
+    font-family:"Helvetica";
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    border: 3px solid white ;
+    padding: 20px 35px 15px 35px;
+    margin-top: 65px;
+    text-align: center;
+}
+
+.title, .cadre {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Helvetica", sans serif;
+    color: white;
+} 
+
+.title {
+    display : flex;
+    flex-direction: column;
+}
+
+h2 { 
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 40px;
+
+   
+}
+
+h3 {
+    font-weight: bold;
+    padding-top: 45px;
+    
+}
+.buzz {
+    background-color: rgba(219, 211, 211, 0.2);
+    height: 450px;
+    position: relative;
+
+}
+h4{
+    text-align: center;
+    font-size: 38px;
+    font-family:"Helvetica";
+    font-weight: bolder;
+    text-transform: uppercase;
+    color:rgba(184, 178, 178,.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}   
+.buzz p {
+    font-size: 26px;
+    font-family:"Helvetica";
+    font-weight: bolder;
+    color: rgba(53, 51, 51, 0.6); 
+    padding-left:300px;
+    padding-right: 300px;
+    line-height: 1.6em;
+    text-align: justify;
+
+}
+.buzz p:last-child {
+    text-align: right;
+
+}
+
+.point {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 380px;
+ }
+ 
+    
+
+footer { 
+   width:100%;
+   height: 400px;
+   font-family: "Helvetica";
+   letter-spacing: 2px;
+   line-height: 1.6em;
+   font-size: 14px;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-flow: row nowrap;
+    
+} 
+
+.posts, .instagram, .tweets,.inscription {
+    width: 25%;
+    padding-right :20px;
+} 
+
+h5 {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(53, 51, 51,.8); 
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.posts p {
+    color: rgba(53, 51, 51, 0.8);
+    font-weight: bold;
+    padding-top: 20px;
+ }
+ 
+.posts a {
+    text-decoration: none;
+    color: rgba(53, 51, 51,.6);
+    
+}
+
+
+.instagram img{
+    width: 28%;  
+}
+
+.tweets a {
+    color: rgba(53, 51, 51, 0.6);
+    text-decoration: none;
+
+}
+.tweets p{ 
+    padding-bottom: 30px;
+    padding-right: 35px;
+}
+
+.email {
+    padding-top: 55px; 
+    
+}
+
+.email a {
+    border: 2px solid  rgba(165, 159, 159, 0.5);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+}
+.email img {
+    
+    padding-left: 180px;
+}
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+    
